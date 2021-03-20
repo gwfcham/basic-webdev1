@@ -1,0 +1,48 @@
+html, body{
+    margin: 0em 0em;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+}
+
+.header{
+    height: 70pt;
+    /* flex: 1; */
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.lside{
+    width: auto;
+    background-color: rgb(255, 0, 191);
+}
+
+.content{
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+
+.rside{
+    width : 100pt;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.footer{
+    height: auto;
+    /* flex: 1; */
+    width: 100%;
+    background-color: purple;
+    align-self: flex-end;
+}
