@@ -1,0 +1,28 @@
+{
+  "name": "basic-webdev1",
+  "version": "1.0.0",
+  "description": "Basic Exercise for Web Dev Training  \r basic webdev exercise 1",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-icons": "^1.4.1",
+    "jquery": "^3.6.0",
+    "puppeteer": "^8.0.0",
+    "puppeteer-core": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwfcham/basic-webdev1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwfcham/basic-webdev1/issues"
+  },
+  "homepage": "https://github.com/gwfcham/basic-webdev1#readme"
+}

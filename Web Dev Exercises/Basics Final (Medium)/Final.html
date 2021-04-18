@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="main.js"></script>
+    <title>Basics Final (Medium)</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-ivilonnav fixed-top min-vw-100" id="mainnav">
+
+        <div class="container justify-content-around">
+            <ul class="navbar-nav p-1 fs-6 ">
+                <li class="nav-item mx-5 " id="nav-1">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item mx-5" id="nav-2">
+                    <a class="nav-link" href="#shop">COLLECTION</a>
+                </li>
+                <li class="nav-item mx-5 " id="nav-3">
+                    <a class="nav-link" href="#aboutus">ABOUT US</a>
+                </li>
+                <li class="nav-item mx-5" id="nav-4">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="logopicture">
+        <div class="imagewrapper">
+
+            <div class="overlay"></div>
+
+            <div class="iconbgwrapper">
+                <picture id="fbbg">
+                    <img src="https://static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/e0678ef25486466ba65ef6ad47b559e1.webp"
+                        alt="">
+                </picture>
+                <picture id="pintbg">
+                    <img src="https://static.wixstatic.com/media/767689ba34f143a1a36e49b5f2fbe31a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/767689ba34f143a1a36e49b5f2fbe31a.webp"
+                        alt="">
+                </picture>
+                <picture id="instabg">
+                    <img src="https://static.wixstatic.com/media/17f992598001435083075924d7b6ae80.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/17f992598001435083075924d7b6ae80.webp"
+                        alt="">
+                </picture>
+            </div>
+
+            <picture id="logo">
+                <img src="https://static.wixstatic.com/media/a858c7_57fde3fb75ec4e0c819b53624294203b.png/v1/fill/w_324,h_162,al_c,q_85,usm_0.66_1.00_0.01/a858c7_57fde3fb75ec4e0c819b53624294203b.webp"
+                    alt="">
+            </picture>
+
+            <picture>
+                <img id="backgroundimg1"
+                    src="https://static.wixstatic.com/media/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.jpg/v1/fill/w_1903,h_1163,al_b,q_90,usm_0.66_1.00_0.01/a858c7_0c8cd4cb13b747ecac8c4fe16ee515fd~mv2_d_2000_1335_s_2.webp%22"
+                    alt="">
+            </picture>
+
+        </div>
+    </div>
+
+    <section class="shoppingbg" id="shop">
+        <div class="container w-50 bg-shopping text-center mt-5 pt-5 pb-5 mb-5">
+            <p class="fs-1 fw-lighter"> SHOP OUR COLLECTION</p>
+            <hr width="75px">
+            <p class="fs-4 fw-lighter">our collection of curtain hardware we <br> design with passion</p>
+        </div>
+        <div class="cardcontainer">
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B07GY3FD2W?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/21Erq7u3BXL.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery
+                        Treatment Window Curtain
+                        Rod - Acrylic Ball 1 inch Pole. 28 to 48 Inch. Satin Nickel</p>
+                    <div class="price">
+                        <p class="mb-0">$28.99</p>
+                        <img src="https://wixlabs-amazon.appspot.com/assets/images/primelogo.svg" alt="" width="50">
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B07GY3FD2W?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+                <div class="option">
+                    <p class="available">AVAILABLE IN MORE OPTIONS</p>
+                </div>
+            </div>
+
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B07GY18321?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/21j5U5z4vsL._SL500_.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery Treatment Window Curtain Rod - Acrylic Ball 1 inch Pole. 28 to 48 Inch. Warm Gold</p>
+                    <div class="price">
+                        <p class="mb-0">$28.99</p>
+                        <img src="https://wixlabs-amazon.appspot.com/assets/images/primelogo.svg" alt="" width="50">
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B07GY18321?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+                <div class="option">
+                    <p class="available">AVAILABLE IN MORE OPTIONS</p>
+                </div>
+            </div>
+
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B07GXYB4ZM?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/219SEeqnrIL._SL500_.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery Treatment Window Curtain Rod - Acrylic Ball 1 inch Pole. 28 to 48 Inch. Black</p>
+                    <div class="price">
+                        <p class="mb-0">$28.99</p>
+                        <img src="https://wixlabs-amazon.appspot.com/assets/images/primelogo.svg" alt="" width="50">
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B07GXYB4ZM?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+                <div class="option">
+                    <p class="available">AVAILABLE IN MORE OPTIONS</p>
+                </div>
+            </div>
+
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B06X9H5HD5?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/21ZFmX2CuwL._SL500_.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery Window Curtain Rod - End Cap Style Design 1 Inch Pole. 28 to 48 Inch Color Satin Nickel</p>
+                    <div class="price">
+                        <p class="mb-0">$25.40</p>
+                        <img src="https://wixlabs-amazon.appspot.com/assets/images/primelogo.svg" alt="" width="50">
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B06X9H5HD5?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+                <div class="option">
+                    <p class="available">AVAILABLE IN MORE OPTIONS</p>
+                </div>
+            </div>
+
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B06X9H3B9V?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/31p21KCv5fL._SL500_.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery Window Curtain Rod - End Cap Style Design 1 Inch Pole. 28 to 48 Inch Color Warm Gold</p>
+                    <div class="price">
+                        <p class="mb-0">$25.40</p>
+                        <img src="https://wixlabs-amazon.appspot.com/assets/images/primelogo.svg" alt="" width="50">
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B06X9H3B9V?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+                <div class="option">
+                    <p class="available">AVAILABLE IN MORE OPTIONS</p>
+                </div>
+            </div>
+
+            <div class="card my-5 mx-4 w-cust h-cardcontain">
+                <a href="https://www.amazon.com/dp/B01GER4VGQ?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1"
+                    target="_blank" id="card-top">
+                    <img src="https://m.media-amazon.com/images/I/31+a3rHQ65L._SL500_.jpg" alt="" width="280">
+                </a>
+                <div class="card-body p-0 bg-shopping  align-items-center w-100 d-flex flex-column">
+                    <p class="card-title mb-0 text-center ls-5 fs-6 fw-lighter w-100 px-3 pt-1">Ivilon Drapery Window Curtain Rod - Twisted Style Set, 28 to 48 Inch. Color Brushed Nickel</p>
+                    <div class="price w-100 px-5">
+                        <p class="mb-0">View Price on Amazon</p>                        
+                    </div>
+                    <button type="button" class="buy-now"
+                        onClick="window.open('https://www.amazon.com/dp/B01GER4VGQ?tag=wixlabs1234-20&linkCode=ogi&th=1&psc=1', '_blank')">
+                        Buy now on Amazon</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aboutus">
+        <div class="contain fade-in">
+            <div class="messagewrapper">
+                <div class="container w-50 bg-light text-center mt-5 pt-5 pb-5 mb-5 mh-100 minwcust ">
+                    <p class="fs-1 fw-lighter">
+                        ABOUT US
+                    </p>
+                    <hr width="75px">
+                    <p class="fs-5 fw-lighter">We are a reputed firm engaged in retailing and distributing a wide range
+                        of
+                        curtain rods and window hardware.</p>
+                    <br>
+                    <p class="fs-5 fw-lighter">With our valuable experience of 15 years in the domain, our products are
+                        known for their superior durability, easy installation and perfect finish, which are suitable to
+                        be
+                        installed at commercial and domestic establishments. We manufacture these products using premium
+                        grade raw material as per the set industrial standards. Our range of curtain rods enhances the
+                        beauty of interiors of households, hotels, offices, showroom, and houses.</p>
+                </div>
+            </div>
+        </div>
+        <video id="backgroundvid" width=100% height=auto autoplay muted loop>
+            <source src="https://video.wixstatic.com/video/11062b_fae1d456c92348a599ffb230a447bd1c/1080p/mp4/file.mp4"
+                type="video/mp4">
+        </video>
+    </section>
+
+    <div class="container-fluid bg-white w-100 justify-content-around min-1000 my-4">
+        <div class="row justify-content-center">
+            <div class="card shadow-lg bg-white my-5 mx-4 w-cust h-cust">
+                <img src="https://static.wixstatic.com/media/a858c7_e99f6df37e3f422bbf27d46b999cdece~mv2_d_4000_4000_s_4_2.jpg/v1/fill/w_178,h_178,al_c,q_80,usm_0.66_1.00_0.01/a858c7_e99f6df37e3f422bbf27d46b999cdece~mv2_d_4000_4000_s_4_2.webp"
+                    class="card-img-top" id="card1">
+                <div class="card-body p-0">
+                    <p class="card-title mb-0 text-center fs-5 fw-lighter w-100">Finials for Curtain Rods</p>
+
+                </div>
+            </div>
+
+            <div class="card shadow-lg bg-white my-5 mx-4 w-cust h-cust">
+                <img src="https://static.wixstatic.com/media/a858c7_c54b402e79af4959ace81698e34e05b2~mv2.jpg/v1/fill/w_178,h_178,al_c,q_80,usm_0.66_1.00_0.01/a858c7_c54b402e79af4959ace81698e34e05b2~mv2.webp"
+                    class="card-img-top" id="card2">
+                <div class="card-body p-0">
+                    <p class="card-title mb-0 text-center fs-5 fw-lighter w-100">Brackets for Curtain Rods</p>
+
+                </div>
+            </div>
+
+            <div class="card shadow-lg bg-white my-5 mx-4 w-cust h-cust">
+                <img src="https://static.wixstatic.com/media/a858c7_0534acce64024a889cc41100a37dea57~mv2.jpg/v1/fill/w_178,h_178,al_c,q_80,usm_0.66_1.00_0.01/a858c7_0534acce64024a889cc41100a37dea57~mv2.webp"
+                    class="card-img-top" id="card3">
+                <div class="card-body p-0">
+                    <p class="card-title mb-0 text-center fs-5 fw-lighter w-100">Curtain Rings</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid w-100 bg-shopping heightcust minwcust align-center pt-3" id="contact">
+        <div class="container bg-white wform mt-5 text-center fade-in" id="contactpage">
+            <p class="fs-3 pt-5 mb-0">Contact Us</p>
+            <a class="fs-4 fw-lighter nounderline" onclick="send_mail()" href="javascript:;">info@ivilon.com</a>
+            <br>
+            <br>
+            <hr width="40px">
+
+            <form action="" id="form1" class=" d-flex flex-wrap justify-content-center pb-5 mb-3">
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" class="fst-italic fs-7">
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name" class="fst-italic fs-7">
+
+                <input type="email" id="email" name="email" placeholder="Email" class="fst-italic fs-7">
+                <input type="text" name="ordernum" id="ordernum" placeholder="Order#" class="fst-italic fs-7">
+                <textarea id="message" name="message" placeholder="Type your message here..."
+                    class="fst-italic fs-7"></textarea>
+
+                <div class="g-recaptcha" id="rcaptcha" data-sitekey="site key"></div>
+                <span id="captcha" style="color:red" /></span>
+
+                <div class=Submit_button>
+                    <button type="button" onclick="" id="submit" name="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerwrapper">
+            <picture id="fbfoot">
+                <img src="https://static.wixstatic.com/media/e0678ef25486466ba65ef6ad47b559e1.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/e0678ef25486466ba65ef6ad47b559e1.webp"
+                    alt="">
+            </picture>
+            <picture id="pintfoot">
+                <img src="https://static.wixstatic.com/media/767689ba34f143a1a36e49b5f2fbe31a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/767689ba34f143a1a36e49b5f2fbe31a.webp"
+                    alt="">
+            </picture>
+            <picture id="instafoot">
+                <img src="https://static.wixstatic.com/media/17f992598001435083075924d7b6ae80.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01/17f992598001435083075924d7b6ae80.webp"
+                    alt="">
+            </picture>
+            <p class="fs-7 text-light mt-3">2016 Created by Ivilon</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
